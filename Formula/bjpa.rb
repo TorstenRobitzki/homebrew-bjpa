@@ -7,6 +7,6 @@ class Bjpa < Formula
   sha256 "41acf6e10f8b28d67f962ee3977d09465152ee6b2a7eb7008ca41fe80f471dd6"
 
   def install
-    FileUtils.cp_r "." "#{prefix}"
+    FileUtils.cp_r ".", "#{prefix}"
   end
 end
