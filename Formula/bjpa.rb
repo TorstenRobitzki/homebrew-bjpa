@@ -3,7 +3,8 @@ require 'fileutils'
 class Bjpa < Formula
   desc "Tools for BJPA"
   homepage "http://Torrox.de"
-  url "https://github.com/TorstenRobitzki/homebrew-bjpa/releases/download/0.1.1/BJPA-0.1.1-Darwin.tar.gz"
+  url "https://github.com/TorstenRobitzki/homebrew-bjpa/releases/download/0.1.1/BJPA-0.1.1-Darwin.tar.gz",
+    :using => :https
   sha256 "41acf6e10f8b28d67f962ee3977d09465152ee6b2a7eb7008ca41fe80f471dd6"
 
   def install
