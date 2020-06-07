@@ -3,8 +3,8 @@ require 'fileutils'
 class Bjpa < Formula
   desc "Tools for BJPA"
   homepage "http://Torrox.de"
-  url "https://github.com/TorstenRobitzki/homebrew-bjpa/releases/download/v0.1.17/BJPA-0.1.17-Darwin.tar.gz"
-  sha256 "b44bd17618f4a763f5691f3711b39c7be13bcc0d9b4213f61a53b00f0239946b"
+  url "https://github.com/TorstenRobitzki/homebrew-bjpa/releases/download/v0.1.18/BJPA-0.1.18-Darwin.tar.gz"
+  sha256 "9a3e4854a087bee13f918fe8d54860b4b3a7c1be856295571b07ccbffb670769"
 
   def install
     FileUtils.cp_r ".", "#{prefix}"
